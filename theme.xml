@@ -192,7 +192,7 @@ license:        creative commons CC-BY-NC-SA
 		<textlist name="gamelist">
 			<origin>0 0</origin>
 			<pos>0.05 0.16</pos>
-			<size>0.9 0.78</size>
+			<size>0.9 0.74</size>
 			<alignment>center</alignment>
 			<lineSpacing>1.81</lineSpacing>
 			<fontSize>${gamelistFontSize}</fontSize>
@@ -215,7 +215,7 @@ license:        creative commons CC-BY-NC-SA
 	<view name="detailed,video">
 		<textlist name="gamelist">
 			<pos>0.05 0.335</pos>
-			<size>0.9 0.60</size>
+			<size>0.9 0.58</size>
 			<alignment>center</alignment>
 			<lineSpacing>1.81</lineSpacing>
 			<fontSize>${gamelistFontSize}</fontSize>
@@ -262,7 +262,7 @@ license:        creative commons CC-BY-NC-SA
 		</text>
 		<textlist name="gamelist">
 			<pos>0.05 0.335</pos>
-			<size>0.42 0.60</size>
+			<size>0.42 0.58</size>
 			<alignment>left</alignment>
 		</textlist>
 		<image name="md_image">
