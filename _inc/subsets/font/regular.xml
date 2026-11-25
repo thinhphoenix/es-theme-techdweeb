@@ -1,0 +1,22 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<variables>
+		<!-- Menu Title font Size -->
+		<menutitleFontSize>0.040</menutitleFontSize>
+		<!-- Menu Footer font Size -->
+		<menufooterFontSize>0.025</menufooterFontSize>
+		<!-- Menu font Size -->
+		<menutextFontSize>0.035</menutextFontSize>
+		<!-- Small Menu font Size -->
+		<menutextsmallFontSize>0.025</menutextsmallFontSize>
+
+		<!-- Logo Font -->
+		<logoFont>./_inc/fonts/title_font.ttf</logoFont>
+		<!-- Body Font -->
+		<bodyFont>./_inc/fonts/body_font.ttf</bodyFont>
+		<gamelistFontSize>0.029</gamelistFontSize>
+		<!-- 11 rows fit inside 0.55 height at this font size -->
+		<gamelistLines>11</gamelistLines>
+	</variables>
+</theme>

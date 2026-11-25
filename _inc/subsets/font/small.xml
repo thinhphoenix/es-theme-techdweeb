@@ -1,0 +1,22 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<variables>
+		<!-- Menu Title font Size -->
+		<menutitleFontSize>0.033</menutitleFontSize>
+		<!-- Menu Footer font Size -->
+		<menufooterFontSize>0.015</menufooterFontSize>
+		<!-- Menu font Size -->
+		<menutextFontSize>0.025</menutextFontSize>
+		<!-- Small Menu font Size -->
+		<menutextsmallFontSize>0.015</menutextsmallFontSize>
+
+		<!-- Logo Font -->
+		<logoFont>./_inc/fonts/title_font.ttf</logoFont>
+		<!-- Body Font -->
+		<bodyFont>./_inc/fonts/body_font.ttf</bodyFont>
+		<gamelistFontSize>0.025</gamelistFontSize>
+		<!-- small font: 13 rows stay clear of the help bar -->
+		<gamelistLines>13</gamelistLines>
+	</variables>
+</theme>
