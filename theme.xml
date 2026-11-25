@@ -77,8 +77,32 @@ license:        creative commons CC-BY-NC-SA
 -->
 
 	<view name="system,basic,detailed,video,grid">
+		<!-- Dark strip behind the button guide so it stays readable over artwork -->
+		<image name="help-background" extra="true">
+			<origin>0 1</origin>
+			<pos>0 1</pos>
+			<size>1 0.062</size>
+			<path>${spacerImage}</path>
+			<tile>true</tile>
+			<color>000000CC</color>
+			<zIndex>60</zIndex>
+		</image>
+
+		<!-- Button guide at the bottom of the screen (A/B/X/Y + d-pad icons from the original theme) -->
 		<helpsystem name="help">
-			<pos>1 1</pos>
+			<origin>0.5 1</origin>
+			<pos>0.5 0.978</pos>
+			<fontPath>${bodyFont}</fontPath>
+			<fontSize>0.030</fontSize>
+			<textColor>ffffff</textColor>
+			<iconColor>ffffff</iconColor>
+			<iconUpDown>./_inc/images/help/icon-dpad.png</iconUpDown>
+			<iconLeftRight>./_inc/images/help/icon-dpad.png</iconLeftRight>
+			<iconUpDownLeftRight>./_inc/images/help/icon-dpad.png</iconUpDownLeftRight>
+			<iconA>./_inc/images/help/icon-a.png</iconA>
+			<iconB>./_inc/images/help/icon-b.png</iconB>
+			<iconX>./_inc/images/help/icon-x.png</iconX>
+			<iconY>./_inc/images/help/icon-y.png</iconY>
 		</helpsystem>
 	 
 
@@ -191,7 +215,7 @@ license:        creative commons CC-BY-NC-SA
 	<view name="detailed,video">
 		<textlist name="gamelist">
 			<pos>0.05 0.335</pos>
-			<size>0.9 0.64</size>
+			<size>0.9 0.60</size>
 			<alignment>center</alignment>
 			<lineSpacing>1.81</lineSpacing>
 			<fontSize>${gamelistFontSize}</fontSize>
@@ -238,7 +262,7 @@ license:        creative commons CC-BY-NC-SA
 		</text>
 		<textlist name="gamelist">
 			<pos>0.05 0.335</pos>
-			<size>0.42 0.64</size>
+			<size>0.42 0.60</size>
 			<alignment>left</alignment>
 		</textlist>
 		<image name="md_image">
