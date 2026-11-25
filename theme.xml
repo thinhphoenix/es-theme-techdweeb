@@ -46,6 +46,7 @@ license:        creative commons CC-BY-NC-SA
 		<include name="green" displayName="Green Ooze">./_inc/subsets/backgrounds/background-art-green.xml</include>
 		<include name="pink" displayName="Pink Fluff">./_inc/subsets/backgrounds/background-art-pink.xml</include>
 		<include name="blue" displayName="Blue Goo">./_inc/subsets/backgrounds/background-art-blue.xml</include>
+		<include name="steelblue" displayName="Steel Blue">./_inc/subsets/backgrounds/background-art-steelblue.xml</include>
 		<include name="red" displayName="Red Squish">./_inc/subsets/backgrounds/background-art-red.xml</include>
 		<include name="grey" displayName="Grey Gunk">./_inc/subsets/backgrounds/background-art-grey.xml</include>
 		<include name="dmg" displayName="DMG Dungeon">./_inc/subsets/backgrounds/background-art-dmg.xml</include>
