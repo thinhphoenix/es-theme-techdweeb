@@ -3,13 +3,12 @@
    <formatVersion>7</formatVersion>
    <view name="system">
       <text name="systemInfo">
-         <fontPath>${bodyFont}</fontPath>
-		<origin>0 0</origin>
+         <fontPath>${logoFont}</fontPath>
+		 <origin>0 0</origin>
 		 <pos>0 0.82</pos>
-		 <fontSize>0.07</fontSize>
+		 <fontSize>${menutitleFontSize}</fontSize>
 		 <alignment>center</alignment>
 		 <color>ffffff</color>
-<fontPath>${logoFont}</fontPath>
       </text>
    </view>
 </theme>
