@@ -109,14 +109,6 @@ license:        creative commons CC-BY-NC-SA
 
 		<image name="logo">
 			<path>./_inc/systems/${logocolor}/${system.theme}.png</path>
-			<path>./_inc/systems/${logocolor}/arcade/${system.theme}.png</path>
-			<path>./_inc/systems/${logocolor}/atari/${system.theme}.png</path>
-			<path>./_inc/systems/${logocolor}/auto/${system.theme}.png</path>
-			<path>./_inc/systems/${logocolor}/genre/${system.theme}.png</path>
-			<path>./_inc/systems/${logocolor}/nintendo/${system.theme}.png</path>
-			<path>./_inc/systems/${logocolor}/sega/${system.theme}.png</path>
-			<path>./_inc/systems/${logocolor}/sony/${system.theme}.png</path>
-			<path>./_inc/systems/${logocolor}/system/${system.theme}.png</path>
 		</image>
 		<text name="logoText">
 			<fontPath>${logoFont}</fontPath>
